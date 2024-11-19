@@ -1,4 +1,4 @@
-import { State } from "../location/state";
+import { State } from "location/state";
 export interface User {
     id: string;
     fullname: string;

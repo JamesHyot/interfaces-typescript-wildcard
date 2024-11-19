@@ -1,5 +1,5 @@
-import { Room } from "./chat/admin/room"
-import { RoomState } from "./chat/admin/roomState"
+import { Room } from "chat/admin/room"
+import { RoomState } from "chat/admin/roomState"
 
 export function Test() {
     const foo : Room = {

@@ -1,5 +1,5 @@
 
-import { User } from '../../users/user'
+import { User } from 'users/user'
 import { RoomState } from './roomState'
 
 export interface Room {
