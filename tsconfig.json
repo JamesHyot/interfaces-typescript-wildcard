@@ -24,10 +24,7 @@
         "noEmit": false,
         "emitDeclarationOnly": true,
 		"outDir": "dist",
-		"tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json",
-		"paths": {
-			"@/*": ["./src/*"]
-		}
+		"tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
 	},
 	"include": ["src"],
     "exclude": [
