@@ -1,0 +1,36 @@
+{
+    "name": "interfaces-typescript-wildcard",
+    "version": "0.1.0",
+    "private": false,
+    "type": "module",
+    "exports": {
+        "./*": {
+            "types": "./dist/*.d.ts",
+            "default": [
+                "./src/*.ts",
+                "./src/*.tsx"
+            ]
+        }
+    },
+    "scripts": {
+        "build": "tsc",
+        "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.4"
+    },
+    "description": "test package.json exports",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JamesHyot/interfaces-typescript-wildcard.git"
+    },
+    "keywords": [
+        "typescript"
+    ],
+    "author": "James Hyot",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JamesHyot/interfaces-typescript-wildcard/issues"
+    },
+    "homepage": "https://github.com/JamesHyot/interfaces-typescript-wildcard#readme"
+}
